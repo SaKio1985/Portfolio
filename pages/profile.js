@@ -1,15 +1,15 @@
 export const skills = [
   {
     skill: "Javascript",
-    percentage: 50,
+    percentage: 60,
   },
   {
     skill: "React",
-    percentage: 50,
+    percentage: 60,
   },
   {
     skill: "Nodejs",
-    percentage: 50,
+    percentage: 70,
   },
   {
     skill: "Kotlin",
@@ -21,7 +21,7 @@ export const skills = [
   },
   {
     skill: "Git",
-    percentage: 70,
+    percentage: 90,
   },
 ];
 
@@ -37,6 +37,7 @@ export const experiences = [
     description:
       "Vendedor comprometido con objetivos de Iberdrola y sus servicios",
     from: 2023,
+    to: "Junio 2024",
   },
 ];
 export const projects = [
@@ -46,11 +47,16 @@ export const projects = [
       "Durante un bootcamp de desarrollo web, creé una página de comercio electrónico utilizando React.js para el front-end y Node.js con Express para el back-end. La aplicación permite a los usuarios explorar y comprar una variedad de productos.",
     image: "portfolio1.jpeg",
   },
-
   {
     name: "Aplicacion eleccion juegos de mesa",
     description:
       "Desarrollé una aplicación móvil multiplataforma con Kotlin para ayudar a los usuarios a elegir juegos de mesa según sus preferencias y requisitos. La aplicación cuenta con una extensa base de datos de juegos y utiliza algoritmos de recomendación para sugerir los juegos más adecuados.",
+    image: "portfolio1.jpeg",
+  },
+  {
+    name: "Aplicacion Tier List",
+    description:
+      "Una Tier List es una herramienta útil y divertida para organizar tus pensamientos y opiniones sobre un tema en particular. ¡Es como crear tu propia clasificación personalizada!.",
     image: "portfolio1.jpeg",
   },
 ];
