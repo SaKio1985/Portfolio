@@ -95,7 +95,7 @@ const Index = () => (
           <div className="card card-body bg-dark">
             <div className="row">
               <div className="col-md-12 my-2">
-                <h1 className="text-center text-light">Portfolio</h1>
+                <h1 className="text-center text-light">Proyectos</h1>
               </div>
               {projects.map(({ name, description, image }, index) => (
                 <div className="col-md-4 p-2" key={index}>
@@ -106,7 +106,13 @@ const Index = () => (
                     <div className="card-body">
                       <h3>{name}</h3>
                       <p>{description}</p>
-                      <a href="#!">Know More</a>
+                      <a
+                        href={projects[index].url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Know More
+                      </a>
                     </div>
                   </div>
                 </div>
