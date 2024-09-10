@@ -1,5 +1,5 @@
 import React from "react";
-import { skills, experiences, projects, posts } from "../data/profileData"; // Si has renombrado correctamente el archivo
+import { skills, experiences, projects, posts } from "../data/profileData";
 
 const Profile = () => {
   return (
@@ -29,7 +29,13 @@ const Profile = () => {
       <ul>
         {projects.map((project, index) => (
           <li key={index}>
-            <strong>{project.name}</strong>: {project.description}
+            <strong>
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
+                {project.name}
+              </a>
+            </strong>
+            : {project.description}
+            <br />
             <img src={project.image} alt={project.name} />
           </li>
         ))}
