@@ -1,9 +1,9 @@
+import { useRouter } from "next/router";
 import Layout from "../components/layout";
 import { posts } from "./profile";
 
 const Post = () => {
   const router = useRouter();
-
   const currentPost = posts.filter(
     (post) => post.title === router.query.title
   )[0];
