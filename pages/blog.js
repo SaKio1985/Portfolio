@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Layout from "../components/layout";
-import { posts } from "./profile";
+import { posts } from "./profileData";
 
 const PostCard = ({ post }) => (
   <div className="col-md-4">
