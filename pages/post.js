@@ -1,5 +1,5 @@
 import Layout from "../components/layout";
-import { posts } from "..pages/profile";
+import { posts } from "./profile";
 
 const Post = () => {
   const router = useRouter();
