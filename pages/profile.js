@@ -105,4 +105,3 @@ export const posts = [
       "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.9Xqaxbfrm5-BYWB1sSj6iwHaEo%26pid%3DApi&f=1&ipt=e1170b5f87ac79c2b7f680ae2eaab0ce1d23c38f46ee349c64bad689685cecf7&ipo=images",
   },
 ];
-export default Profile;
